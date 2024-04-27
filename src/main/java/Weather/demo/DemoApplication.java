@@ -1,13 +1,12 @@
-package com.kpsoft.it.ws_POC_Weather_app;
+package Weather.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WsPocWeatherAppApplication {
-
+public class DemoApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(WsPocWeatherAppApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
